@@ -1,6 +1,10 @@
 import css from "./Planet.module.scss";
 
 const Planet = ({ planet }) => {
+  if (!planet) {
+    return null;
+  }
+
   return (
     <div
       className={css.card}
