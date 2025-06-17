@@ -46,7 +46,7 @@ const usePlanet = () => {
     data,
     loading,
     error,
-    refresh: fetchData,
+    refresh: () => fetchData(),
     previous,
     next,
   };

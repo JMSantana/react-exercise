@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import PlanetList from "./components/PlanetList";
+import PlanetList from "./components/Planet/PlanetList";
 
 function App() {
   return (
